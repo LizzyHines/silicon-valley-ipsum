@@ -1,0 +1,23 @@
+{
+  "name": "silicon-valley-ipsum",
+  "version": "1.0.0",
+  "description": "Making the world a better place, one sentence of filler text at a time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizzyHines/silicon-valley-ipsum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizzyHines/silicon-valley-ipsum/issues"
+  },
+  "homepage": "https://github.com/LizzyHines/silicon-valley-ipsum#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
