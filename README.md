@@ -1,2 +1,2 @@
 # Silicon Valley Ipsum
-Lorem Ipsum generator with quotes from the show Silicon Valley.
+Making the world a better place, one sentence of filler text at a time.
