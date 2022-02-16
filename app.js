@@ -6,8 +6,8 @@ const app = express;
 const routes = require("./router");
 
 //hostname and port to view app
-const hostname =  "127.0.0.1";
-const port = 4200;
+//const hostname =  "127.0.0.1";
+//const port = 4200;
 
 //directory for other frontend files
 app.use(express.static("public"));
