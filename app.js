@@ -17,5 +17,5 @@ app.use(routes);
 
 //connection to specified port
 app.listen(port, () => {
-    console.log("Server is listening at http://${hostname}:${port/");
+    console.log(`Server is listening at http://${hostname}:${port}/`);
 })
