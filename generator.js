@@ -1,6 +1,6 @@
 //this is how we generate the filler text of SV quotes
 
-const svIpsum = new GenerateNewText ();
+const svIpsum = new GenerateNewText();
 
 
 //adding sentences of text to generate paragraphs from
@@ -10,14 +10,14 @@ function GenerateNewText () {
             " It’s not magic, it’s talent and sweat.",
             " People like me ensure your packets get delivered unsniffed.",
             " So what do I do? I make sure that one bad config on one key component doesn't bankrupt the entire fucking company.",
-            "That’s what the fuck I do."
+            " That’s what the fuck I do."
         ];
 }
 
 //generating random sentence from array
-GenerateNewText.prototype.getRandomSentence = function () {
+GenerateNewText.prototype.getRandomSentence = function() {
     let randomSentence = this.sentences[Math.floor(Math.random() * this.sentences.length)]
-        return randomSentence;
+        return (randomSentence);
 }
 
 //generating a paragraph of text from the text put in above

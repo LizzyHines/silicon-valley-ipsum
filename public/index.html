@@ -15,7 +15,10 @@
         <h3>Making the world a better place, one sentence of filler text at a time.</h3>
 
     <form action="/" method="POST">
-        <input type="number" class="paragraph-number" name="numberOfParagraphs">
+        <div>
+            <label for="number-of-paragraphs">How many paragraphs do you need?</label>
+            <input type="number" class="paragraph-number" name="numberOfParagraphs" id="number-of-paragraphs">
+        </div>
         <input type="submit" value="Generate" class="generate-button">
     </form>
 

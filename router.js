@@ -19,7 +19,7 @@ router.get('/', (request, response) => {
 
 //route to generate filler ipsum text and reload updated index.html file
 router.post('/', (request, response) => {
-    request.on("data", function (inputValue) {
+    request.on("data", function(inputValue) {
         //make POST data into readable string
         let query = inputValue.toString(); //so, numberOfParagraphs = 2
         //parse query into key/value pair and store value of numberOfParagraphs in variable
@@ -29,7 +29,7 @@ router.post('/', (request, response) => {
         //get contents of index.html into variable
         let fileContents = fs.readFileSync("./public/index.html", "utf8");
         //replace placeholder <div> with new filler text
-        fileContents = fileContents.replace("<div class='placeholder-div'></div>", svIpsumText);
+        fileContents = fileContents.replace('<div class="placeholder-div"></div>', svIpsumText);
         response.setHeader('Content-Type', 'text/html');
         //send response with modified index.html file
         response.write(fileContents);
